@@ -1,0 +1,15 @@
+# references:
+# * http://www.objc.io/issue-6/travis-ci.html
+# * https://github.com/supermarin/xcpretty#usage
+
+language: objective-c
+osx_image: xcode8
+
+env:
+  - DESTINATION='platform=iOS Simulator,name=iPad Retina'
+  - DESTINATION='platform=iOS Simulator,name=iPhone 5'
+  - DESTINATION='platform=iOS Simulator,name=iPhone 6'
+  - DESTINATION='platform=iOS Simulator,name=iPhone 7'
+
+script:
+  - set -o pipefail && xcodebuild -workspace Example/LikeAnimation.xcworkspace -scheme LikeAnimation-Example -destination "$DESTINATION" ONLY_ACTIVE_ARCH=NO | xcpretty
