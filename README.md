@@ -1,6 +1,6 @@
 # Like Animation for iOS
 
-![LikeAnimation](https://cloud.githubusercontent.com/tmp.png)
+![LikeAnimation](https://cloud.githubusercontent.com/assets/1595032/24006198/c4096c5a-0a73-11e7-890b-e5f0266e95b4.gif)
 
 [![CI Status](http://img.shields.io/travis/anatoliyv/LikeAnimation.svg?style=flat)](https://travis-ci.org/anatoliyv/LikeAnimation)
 [![Version](https://img.shields.io/cocoapods/v/LikeAnimation.svg?style=flat)](http://cocoapods.org/pods/LikeAnimation)
@@ -9,10 +9,10 @@
 
 Like animation (heart beating):
 
-[*] Easy to add to your project
-[*] Customizable colors
-[*] Customizable particles
-[*] Has delegation to handle `willBegin` and `didEnd` events
+- [x] Easy to add to your project
+- [x] Customizable colors
+- [x] Customizable particles
+- [x] Has delegation to handle `willBegin` and `didEnd` events
 
 ## Example
 
