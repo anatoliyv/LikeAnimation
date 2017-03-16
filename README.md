@@ -88,6 +88,8 @@ likeAnimation.run()
 
 ## Project using LikeAnimation
 
+Using LikeAnimation in you project? Make a pull request to add your app to this list.
+
 - [FlyFlasher](https://itunes.apple.com/us/app/flyflasher-a-worldwide-fly-tying-community/id828509959)
 
 ## Author
