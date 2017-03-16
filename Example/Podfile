@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LikeAnimation_Example' do
+  pod 'LikeAnimation', :path => '../'
+
+  target 'LikeAnimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

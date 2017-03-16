@@ -1,0 +1,6 @@
+framework module LikeAnimation {
+  umbrella header "LikeAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

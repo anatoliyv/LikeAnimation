@@ -1,0 +1,16 @@
+PODS:
+  - LikeAnimation (0.1.0)
+
+DEPENDENCIES:
+  - LikeAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  LikeAnimation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LikeAnimation: 1ef797a435b211b7741620d03d26d59c43d73e9c
+
+PODFILE CHECKSUM: e1bc3c9985995b99b858bcceb5db1ac9b2776f78
+
+COCOAPODS: 1.2.0
