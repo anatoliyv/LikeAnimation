@@ -86,6 +86,10 @@ Run
 likeAnimation.run()
 ```
 
+## Project using LikeAnimation
+
+- [FlyFlasher](https://itunes.apple.com/us/app/flyflasher-a-worldwide-fly-tying-community/id828509959)
+
 ## Author
 
 - anatoliy.voropay@gmail.com
