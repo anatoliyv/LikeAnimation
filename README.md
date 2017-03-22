@@ -37,7 +37,8 @@ pod "LikeAnimation"
 Create an animation.
 
 ```
-let likeAnimation = LikeAnimation(frame: CGRect(origin: yourPlaceholderView, size: CGSize(width: 100, height: 100)))
+let likeAnimation = LikeAnimation(frame: CGRect(origin: yourPlaceholderView.center, size: CGSize(width: 100, height: 100)))
+yourPlaceholderView.addSubview(likeAnimation)
 ```
 
 Customize duration to 1.5 seconds.
